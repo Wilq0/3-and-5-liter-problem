@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 and 5 liter container problem</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = "mainMenu">
+        <h1>Make one of the containers have exactly 4 liters in total to win!</h1>
+        <div class = "Buttons-container">
+            <button onclick = emptyButton1() class = "buttons">Empty box 1</button>
+            <button onclick = emptyButton2() class = "buttons">Empty box 2</button>
+        </div>
+
+        <button onclick = swapLiquid(true) class = "buttons">Pass liquid from box 1 to box 2</button>
+
+        <div class = "literContainer">
+            <p><span id = "literAmount1">0</span>/3 liters</p>
+        </div>
+        <div class = "literContainer">
+            <p><span id = "literAmount2">0</span>/5 liters</p>
+        </div>
+
+        <button onclick = swapLiquid(false) class = "buttons">Pass liquid from box 2 to box 1</button>
+
+        <div class = "Buttons-container">
+            <button onclick = fillButton1() class = "buttons">Fill box 1</button>
+            <button onclick = fillButton2() class = "buttons">Fill box 2</button>
+        </div>
+    </div>
+    <p id = "winText" style = "text-align: center;"></p>
+    <script src = "./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.mainMenu {
+    height: fit-content;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    padding: 10px;
+}
+
+.literContainer {
+    height: 100px;
+    width: fit-content;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+}
+
+.buttons {
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+}
+
+.Buttons-container {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
